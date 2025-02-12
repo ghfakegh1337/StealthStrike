@@ -19,7 +19,7 @@ This is an offshoot from another project, my StealthCore project.
 - Soon
 
 ### Screenshots
-- ![Preview Cheat](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prev.png?raw=true)
+![Preview Cheat](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prev.png?raw=true)
 
 ### Help
 - If you have any problems or have any questions, just write to me in private messages on Discord: ghfakegh1337 or Telegram: @ghfakegh1337.

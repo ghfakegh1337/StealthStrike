@@ -12,6 +12,9 @@ This is an offshoot from another project, my StealthCore project.
 * 11 February 2025
   * 🟡 Bug fix.
 
+* 10 February 2025
+  * 🟢 Release.
+
 ### Getting started
 - Soon
 

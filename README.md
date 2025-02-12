@@ -29,4 +29,4 @@ This is an offshoot from another project, my StealthCore project.
 
 ### Authors
 - ghfakegh1337 - Cheat Developer.
-- [swedz](https://www.youtube.com/@SwedishTwat) - Cheat guides in C#.
+- [swedz](https://www.youtube.com/@SwedishTwat) - Swed64 library + Cheat guides in C#.

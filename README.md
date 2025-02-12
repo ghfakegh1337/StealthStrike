@@ -29,4 +29,5 @@ This is an offshoot from another project, my StealthCore project.
 
 ### Authors
 - ghfakegh1337 - Cheat Developer.
+- [a2x](https://github.com/a2x/cs2-dumper) - Dumper cs2.
 - [swedz](https://www.youtube.com/@SwedishTwat) - Swed64 library + Cheat guides in C#.

@@ -1,4 +1,22 @@
+## StealthCore
+
+### Description
 This is an offshoot from another project, my StealthCore project.
+
+### Features
+
+- The key system.
+- ESP.
+- TriggerBot.
+
+### What's new
+
+* 11 February 2025
+  * 🟡 Bug fix.
+
+### Help
+
+- If you have any problems or have any questions, just write to me in private messages on Discord: ghfakegh1337 or Telegram: @ghfakegh1337.
 
 ### Status
 - 🟢 Work.

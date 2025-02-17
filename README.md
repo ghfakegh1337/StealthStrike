@@ -22,7 +22,7 @@ Why was Stealth Strike needed at all? - it was created to make it safer to bypas
   * 🟢 Release.
 
 ### Getting started
-- Soon
+- Soon.
 
 ### Screenshots
 ![Preview Cheat](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prev.png?raw=true)

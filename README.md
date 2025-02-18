@@ -12,6 +12,9 @@ Why was Stealth Strike needed at all? - it was created to make it safer to bypas
 - TriggerBot.
 
 ### What's new
+* 18 February 2025
+  * 🟢 Added automatic detection of screen expansion.
+
 * 15 February 2025
   * 🟡 Updated to the latest version of the game.
 

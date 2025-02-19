@@ -27,6 +27,9 @@ Why was Stealth Strike needed at all? - it was created to make it safer to bypas
 * 10 February 2025
   * 🟢 Release.
 
+### Key
+  * KP69Z-O2V6U-YU1SN-XLLRU-KAGPZ
+
 ### Getting started
 - Soon.
 

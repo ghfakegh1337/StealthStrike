@@ -12,6 +12,10 @@ Why was Stealth Strike needed at all? - it was created to make it safer to bypas
 - TriggerBot.
 
 ### What's new
+* 22 February 2025
+  * 🟢 Added Distance.
+  * 🟡 Fix TriggerBot.
+
 * 19 February 2025
   * 🟢 Added HealthBar.
 

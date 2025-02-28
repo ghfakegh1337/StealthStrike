@@ -32,7 +32,7 @@ Why was Stealth Strike needed at all? - it was created to make it safer to bypas
   * 🟢 Release.
 
 ### Key
-  * KP69Z-O2V6U-YU1SN-XLLRU-KAGPZ
+  * KP69Z-O2V6U-YU1SN-XLLRU-KAGPZ.
 
 ### Getting started
 - Soon.

@@ -4,7 +4,7 @@
 This is an offshoot from another project, my StealthCore project.
 
 ### Frequently asked questions
-Why was Stealth Strike needed at all? - it was created to make it safer to bypass cheat checks. And then why do you need Stealth Core? - this program completely cleans the PC of cheats and it is very clearly visible, but Stealth Strike does not clean anything at all and is also safe to use, and the administrator cannot ban you for cleaning the computer.
+Why was StealthStrike needed at all? - it was created to make it safer to bypass cheat checks. And then why do you need StealthCore? - this program completely cleans the PC of cheats and it is very clearly visible, but StealthStrike does not clean anything at all and is also safe to use, and the administrator cannot ban you for cleaning the computer.
 
 ### Features
 - The key system.

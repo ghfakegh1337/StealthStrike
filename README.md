@@ -13,8 +13,7 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 
 ### What's new
 * 7 March 2025
-  * 🟢 Added Distance.
-  * 🟡 Fix TriggerBot.
+  * 🟡 Updated to the latest version of the game.
 
 * 22 February 2025
   * 🟢 Added Distance.

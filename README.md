@@ -38,7 +38,7 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
   * KP69Z-O2V6U-YU1SN-XLLRU-KAGPZ.
 
 ### Getting started
-- Download dotnet 9 from this link: https://dotnet.microsoft.com/en-us/download/dotnet/9.0.
+- Download dotnet 9 from this [link](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
 - After that you can just download the latest program from the releases and just run it.
 - Then enter the key and you can play.
 

@@ -12,6 +12,9 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 - TriggerBot (LAlt).
 
 ### What's new
+* 13 March 2025
+  * 🟡 Fixed a bug with zero coordinates in esp.
+
 * 12 March 2025
   * 🟡 Updated to the latest version of the game.
   * 🟡 Bug fix.

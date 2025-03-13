@@ -62,6 +62,6 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 
 ### Authors
 - ghfakegh1337 - Cheat Developer.
-- [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET) - ImGUI
+- [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET) - ImGUI.
 - [a2x](https://github.com/a2x/cs2-dumper) - Dumper cs2.
 - [swedz](https://www.youtube.com/@SwedishTwat) - Swed64 library + Cheat guides in C#.

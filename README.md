@@ -14,7 +14,7 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 ### What's new
 * 15 March 2025
   * 🟡 Added more buttons for TriggerBot.
-  * 🟡 Changed initial position of menu
+  * 🟡 Changed initial position of menu.
 
 * 13 March 2025
   * 🟡 Fixed a bug with zero coordinates in esp.

@@ -9,7 +9,7 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 ### Features
 - The key system.
 - ESP.
-- TriggerBot (LAlt).
+- TriggerBot.
 
 ### What's new
 * 15 March 2025

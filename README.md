@@ -2,6 +2,7 @@
 
 ### Description
 This is an offshoot from another project, my StealthCore project.
+It was created with the aim of improving my C# skills (since I'm new to this).
 
 ### Frequently asked questions
 Why was StealthStrike needed at all? - it was created to make it safer to bypass cheat checks. And then why do you need StealthCore? - this program completely cleans the PC of cheats and it is very clearly visible, but StealthStrike does not clean anything at all and is also safe to use, and the administrator cannot ban you for cleaning the computer.

@@ -2,7 +2,6 @@
 
 ### Description
 This is an offshoot from another project, my StealthCore project.
-
 It was created with the aim of improving my C# skills (since I'm new to this).
 
 ### Frequently asked questions

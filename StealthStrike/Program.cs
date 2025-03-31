@@ -40,6 +40,44 @@ public class Program
         List<Entity> entities = new List<Entity>();
         Entity localPlayer = new Entity();
 
+        // Поток триггера
+        Thread triggerThread = new Thread(() =>
+        {
+            while (true)
+            {
+                if (renderer.EnableTrigger)
+                {
+                    IntPtr entityList = swed.ReadPointer(client, dwEntityList);
+                    IntPtr localPlayerPawn = swed.ReadPointer(client, dwLocalPlayerPawn);
+
+                    int team = swed.ReadInt(localPlayerPawn, m_iTeamNum);
+                    int entIndex = swed.ReadInt(localPlayerPawn, m_iIDEntIndex);
+
+                    if (entIndex != -1)
+                    {
+                        IntPtr entityListEntry = swed.ReadPointer(entityList, 0x8 * ((entIndex & 0x7FFF) >> 9) + 0x10);
+                        IntPtr currentPawn = swed.ReadPointer(entityListEntry, 0x78 * (entIndex & 0x1FF));
+                        int entityTeam = swed.ReadInt(currentPawn, m_iTeamNum);
+                        int targetHealth = swed.ReadInt(currentPawn, m_iHealth);
+
+                        int HOTKEY = renderer.SelectedKey;
+                        int MOUSEEVENTF_LEFTDOWN = 0x02;
+                        int MOUSEEVENTF_LEFTUP = 0x04;
+
+                        if (team != entityTeam && targetHealth > 0 && GetAsyncKeyState(HOTKEY) < 0)
+                        {
+                            Thread.Sleep(renderer.triggerDeleyBeforeShot);
+                            mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
+                            mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+                            Thread.Sleep(renderer.triggerDeleyAfterShot);
+                        }
+                    }
+                }
+            }
+        });
+        triggerThread.IsBackground = true;
+        triggerThread.Start();
+
         while (true)
         {
             entities.Clear();
@@ -88,33 +126,6 @@ public class Program
 
             renderer.UpdateLocalPlayer(localPlayer);
             renderer.UpdateEntities(entities);
-
-            if (renderer.EnableTrigger)
-            {
-                int team = swed.ReadInt(localPlayerPawn, m_iTeamNum);
-                int entIndex = swed.ReadInt(localPlayerPawn, m_iIDEntIndex);
-
-                if (entIndex != -1)
-                {
-                    IntPtr entityListEntry = swed.ReadPointer(entityList, 0x8 * ((entIndex & 0x7FFF) >> 9) + 0x10); // correct list entry variable name
-                    IntPtr currentPawn = swed.ReadPointer(entityListEntry, 0x78 * (entIndex & 0x1FF));
-                    int entityTeam = swed.ReadInt(currentPawn, m_iTeamNum);
-
-                    int targetHealth = swed.ReadInt(currentPawn, m_iHealth); // Читаем HP цели
-
-                    int HOTKEY = renderer.SelectedKey; //Кнопка триггера
-                    int MOUSEEVENTF_LEFTDOWN = 0x02;
-                    int MOUSEEVENTF_LEFTUP = 0x04;
-
-                    if (team != entityTeam && targetHealth > 0 && GetAsyncKeyState(HOTKEY) < 0) // Проверяем здоровье
-                    {
-                        Thread.Sleep(10);
-                        mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
-                        Thread.Sleep(1);
-                        mouse_event(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
-                    }
-                }
-            }
         }
     }
 

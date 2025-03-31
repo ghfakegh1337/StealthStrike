@@ -13,6 +13,9 @@ namespace BasicESP
     {
         public Vector2 screenSize = GetScreenSize();
 
+        public int triggerDeleyBeforeShot = 10;
+        public int triggerDeleyAfterShot = 1;
+
         private ConcurrentQueue<Entity> entities = new ConcurrentQueue<Entity>();
         private Entity localPlayer = new Entity();
         private readonly object entityLock = new object();
@@ -58,7 +61,7 @@ namespace BasicESP
                 io.NativePtr->IniFilename = null;
             }
 
-            ImGui.SetNextWindowSize(new Vector2(265, 215), ImGuiCond.FirstUseEver);
+            ImGui.SetNextWindowSize(new Vector2(390, 265), ImGuiCond.FirstUseEver);
 
             ImGui.Begin("StealthStrike", ImGuiWindowFlags.NoSavedSettings);
             ImGui.Checkbox("Enable ESP", ref enableESP);
@@ -70,7 +73,8 @@ namespace BasicESP
                 ImGui.ColorPicker4("##enemycolor", ref enemyColor);
 
             ImGui.Checkbox("Enable Trigger", ref enableTrigger);
-
+            ImGui.SliderInt("Delay Before Shot", ref triggerDeleyBeforeShot, 10, 1000);
+            ImGui.SliderInt("Delay After Shot", ref triggerDeleyAfterShot, 10, 1000);
             if (ImGui.BeginCombo("Trigger Key", keyOptions.First(k => k.Value == selectedKey).Key))
             {
                 foreach (var key in keyOptions)

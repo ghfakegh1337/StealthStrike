@@ -58,6 +58,7 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 - Then enter the key and you can play.
 
 ### Screenshots
+![Preview TriggerBot Sliders](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prevtriggerbotsliders.png?raw=true)
 ![Preview TriggerBot Keys](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prevtriggerbotkeys.png?raw=true)
 ![Preview HealthBar](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prevdistance.png?raw=true)
 ![Preview HealthBar](https://github.com/ghfakegh1337/StealthStrike/blob/main/assets/prevhealthbar.png?raw=true)

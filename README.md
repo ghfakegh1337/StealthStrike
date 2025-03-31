@@ -13,6 +13,11 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 - TriggerBot.
 
 ### What's new
+* 31 March 2025
+  * 🟢 Added TriggerBot Deley Before Shot and TriggerBot Deley After Shot.
+  * 🟢 Added separate thread for TriggerBot.
+  * 🟡 Fix Bug.
+
 * 21 March 2025
   * 🟡 Updated to the latest version of the game.
 

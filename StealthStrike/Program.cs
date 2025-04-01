@@ -18,9 +18,9 @@ public class Program
         IntPtr client = swed.GetModuleBase("client.dll");
 
         // offsets.cs
-        int dwEntityList = 0x1A38800;
-        int dwViewMatrix = 0x1AA45F0;
-        int dwLocalPlayerPawn = 0x188CF70;
+        int dwEntityList = 0x1A1F640;
+        int dwViewMatrix = 0x1A89050;
+        int dwLocalPlayerPawn = 0x1874050;
 
         // client_dll.cs
         int m_iIDEntIndex = 0x1458;

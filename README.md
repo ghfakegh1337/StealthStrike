@@ -13,6 +13,9 @@ Why was StealthStrike needed at all? - it was created to make it safer to bypass
 - TriggerBot.
 
 ### What's new
+* 2 April 2025
+  * 🟡 Updated to the latest version of the game.
+
 * 1 April 2025
   * 🟡 Updated to the latest version of the game.
 
